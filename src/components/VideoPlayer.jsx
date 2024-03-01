@@ -64,7 +64,7 @@ export function VideoPlayer({ videoForPlay, handleNext, handlePrev }) {
         </div>
 
         <div className="flex items-center w-full flex-row justify-around">
-          <button onClick={handlePrev} disabled={videoForPlay.id === 1}>
+          <button onClick={handlePrev} disabled={videoForPlay.id == 1}>
             <ion-icon name="play-back-outline"></ion-icon>
           </button>
 
@@ -75,7 +75,7 @@ export function VideoPlayer({ videoForPlay, handleNext, handlePrev }) {
               <ion-icon name="play-outline"></ion-icon>
             )}
           </button>
-          <button onClick={handleNext} disabled={videoForPlay.id === 20}>
+          <button onClick={handleNext} disabled={videoForPlay.id == 20}>
             <ion-icon name="play-forward-outline"></ion-icon>
           </button>
         </div>

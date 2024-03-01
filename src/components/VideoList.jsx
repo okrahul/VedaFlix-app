@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
+import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
 import { videoData } from "../utils/videoData";
 
 export const VideoList = ({ handlePlay }) => {
@@ -19,8 +19,8 @@ export const VideoList = ({ handlePlay }) => {
         <Droppable droppableId="characters">
           {(provided) => (
             <ul
-              {...provided.droppableProps}
               className="characters"
+              {...provided.droppableProps}
               ref={provided.innerRef}
             >
               {characters.map(({ id, name }, index) => (

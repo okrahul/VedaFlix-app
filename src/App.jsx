@@ -13,16 +13,16 @@ function App() {
   };
 
   const handleNext = () => {
-    let getID = videoForPlay.id;
+    let getID = +videoForPlay.id;
     getID++;
-    const findVideo = videoData.find((list) => list.id === getID);
+    const findVideo = videoData.find((list) => list.id == getID);
     setVideoForPlay(findVideo);
   };
 
   const handlePrev = () => {
-    let getID = videoForPlay.id;
+    let getID = +videoForPlay.id;
     getID--;
-    const findVideo = videoData.find((list) => list.id === getID);
+    const findVideo = videoData.find((list) => list.id == getID);
     setVideoForPlay(findVideo);
   };
 
