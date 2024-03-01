@@ -59,7 +59,7 @@ Stay tuned for the live demo link to experience Vedaflix in action!
 3. Run the development server with `yarn run dev`.
 4. Explore the exciting world of soccer videos with Vedaflix!
 
-For any inquiries or feedback, please contact [your-email@example.com].
+For any inquiries or feedback, please contact okrahul.dev.
 
 **Enjoy your soccer watching experience with Vedaflix!** 📺⚽️
 
